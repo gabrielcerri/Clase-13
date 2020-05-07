@@ -4,11 +4,12 @@ número hasta, debe imprimir en consola todos los números que están entre el p
 parámetro y el segundo. */
 
 
+
 function imprimirOtrosNumeros (numero1,numero2) {
 	let listaOtrosNumeros = []
-	let i = numero1
+	let i = numero1 +1
 	let j = numero2
-	while (i<=j){
+	while (i<j){
 		listaOtrosNumeros.push(i)
 		i++
 	}
