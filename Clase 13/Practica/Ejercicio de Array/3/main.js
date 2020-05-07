@@ -1,9 +1,9 @@
 /*3. Definir una función calcularPromedio que reciba como parámetro una lista de números y
 devuelva el promedio de estos números.*/
-let promedio=1
 
-let suma = 0
 function calcularPromedio (listaDeNumeros) {
+let promedio=1
+let suma = 0
 	for (let i=0; i<listaDeNumeros.length;i++){
 		suma = suma + listaDeNumeros[i]
 		promedio = suma / listaDeNumeros.length
